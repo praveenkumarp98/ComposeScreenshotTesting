@@ -51,6 +51,138 @@ app/
 
 ---
 
+## Reference Screenshots
+
+All 31 reference images are committed to the repo and used as baselines for pixel comparison on every test run.
+
+### PrimaryButton
+
+<table>
+  <tr>
+    <td align="center"><b>Light</b></td>
+    <td align="center"><b>Dark</b></td>
+    <td align="center"><b>Disabled Light</b></td>
+    <td align="center"><b>Disabled Dark</b></td>
+  </tr>
+  <tr>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryLightMode_Button_Primary_LightMode_84e678e8_0.png" width="180"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryDarkMode_Button_Primary_DarkMode_d82d785b_0.png" width="180"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryDisabledLightMode_Button_Primary_Disabled_LightMode_dd4ee4ae_0.png" width="180"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryDisabledDarkMode_Button_Primary_Disabled_DarkMode_b125bd7a_0.png" width="180"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>With Icon Light</b></td>
+    <td align="center"><b>With Icon Dark</b></td>
+    <td align="center"><b>Large Font (1.5×)</b></td>
+    <td align="center"><b>Huge Font (2.0×)</b></td>
+  </tr>
+  <tr>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryWithIconLightMode_Button_Primary_WithIcon_LightMode_a6d8dbe1_0.png" width="180"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryWithIconDarkMode_Button_Primary_WithIcon_DarkMode_852f817f_0.png" width="180"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryLargeFontScale_Button_Primary_LargeFontScale_474209d2_0.png" width="180"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryHugeFontScale_Button_Primary_HugeFontScale_8de1a3c3_0.png" width="180"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Long Label</b></td>
+    <td align="center"><b>Small Font (0.85×)</b></td>
+    <td align="center"><b>RTL (Arabic)</b></td>
+    <td align="center"><b></b></td>
+  </tr>
+  <tr>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryLongLabelLightMode_Button_Primary_LongLabel_LightMode_f18f57d7_0.png" width="180"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimarySmallFontScale_Button_Primary_SmallFontScale_d7bcdff9_0.png" width="180"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryRtlLocale_Button_Primary_RtlLocale_b092ded2_0.png" width="180"/></td>
+    <td></td>
+  </tr>
+</table>
+
+### SecondaryButton
+
+<table>
+  <tr>
+    <td align="center"><b>Light</b></td>
+    <td align="center"><b>Dark</b></td>
+    <td align="center"><b>Large Font (1.5×)</b></td>
+  </tr>
+  <tr>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonSecondaryLightMode_Button_Secondary_LightMode_ccc67921_0.png" width="180"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonSecondaryDarkMode_Button_Secondary_DarkMode_2385d135_0.png" width="180"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonSecondaryLargeFontScale_Button_Secondary_LargeFontScale_303416fc_0.png" width="180"/></td>
+  </tr>
+</table>
+
+### ContentCard
+
+<table>
+  <tr>
+    <td align="center"><b>Light</b></td>
+    <td align="center"><b>Dark</b></td>
+    <td align="center"><b>Loading Light</b></td>
+    <td align="center"><b>Loading Dark</b></td>
+  </tr>
+  <tr>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/CardPreviewScreenshots/CardContentLightMode_Card_Content_LightMode_606ecd1b_0.png" width="180"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/CardPreviewScreenshots/CardContentDarkMode_Card_Content_DarkMode_d6142fcf_0.png" width="180"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/CardPreviewScreenshots/CardLoadingLightMode_Card_Loading_LightMode_2198ca52_0.png" width="180"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/CardPreviewScreenshots/CardLoadingDarkMode_Card_Loading_DarkMode_0b2711ed_0.png" width="180"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>No Icon</b></td>
+    <td align="center"><b>Long Text</b></td>
+    <td align="center"><b>Narrow (280dp)</b></td>
+    <td align="center"><b>RTL (Arabic)</b></td>
+  </tr>
+  <tr>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/CardPreviewScreenshots/CardContentNoIconLightMode_Card_Content_NoIcon_LightMode_e6109567_0.png" width="180"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/CardPreviewScreenshots/CardContentLongTextLightMode_Card_Content_LongText_LightMode_c24c30e2_0.png" width="180"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/CardPreviewScreenshots/CardContentNarrowWidth_Card_Content_NarrowWidth_e826aeb5_0.png" width="180"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/CardPreviewScreenshots/CardContentRtlLocale_Card_Content_RtlLocale_a0247b20_0.png" width="180"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Large Font (1.5×)</b></td>
+    <td align="center"><b>Loading Large Font</b></td>
+    <td align="center"><b></b></td>
+    <td align="center"><b></b></td>
+  </tr>
+  <tr>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/CardPreviewScreenshots/CardContentLargeFontScale_Card_Content_LargeFontScale_239f98f7_0.png" width="180"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/CardPreviewScreenshots/CardLoadingLargeFontScale_Card_Loading_LargeFontScale_e2fe839d_0.png" width="180"/></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+### AppTopBar
+
+<table>
+  <tr>
+    <td align="center"><b>Light</b></td>
+    <td align="center"><b>Dark</b></td>
+    <td align="center"><b>No Back Arrow</b></td>
+    <td align="center"><b>Long Title</b></td>
+  </tr>
+  <tr>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/TopBarPreviewScreenshots/TopBarLightMode_TopBar_LightMode_311839af_0.png" width="180"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/TopBarPreviewScreenshots/TopBarDarkMode_TopBar_DarkMode_84e2bfcf_0.png" width="180"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/TopBarPreviewScreenshots/TopBarNoBackArrowLightMode_TopBar_NoBackArrow_LightMode_cf742b5d_0.png" width="180"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/TopBarPreviewScreenshots/TopBarLongTitleLightMode_TopBar_LongTitle_LightMode_1b44aa37_0.png" width="180"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Large Font (1.5×)</b></td>
+    <td align="center"><b>Huge Font (2.0×)</b></td>
+    <td align="center"><b>RTL (Arabic)</b></td>
+    <td align="center"><b></b></td>
+  </tr>
+  <tr>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/TopBarPreviewScreenshots/TopBarLargeFontScale_TopBar_LargeFontScale_d6c971a8_0.png" width="180"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/TopBarPreviewScreenshots/TopBarHugeFontScale_TopBar_HugeFontScale_036ef737_0.png" width="180"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/TopBarPreviewScreenshots/TopBarRtlLocale_TopBar_RtlLocale_859cad38_0.png" width="180"/></td>
+    <td></td>
+  </tr>
+</table>
+
+---
+
 ## Components Under Test
 
 ### PrimaryButton
@@ -202,6 +334,20 @@ dependencies {
 # Regenerate all reference images (after intentional UI changes)
 ./gradlew updateDebugScreenshotTest
 ```
+
+---
+
+## Test Report
+
+### All 31 Tests Passing — 100% Successful
+
+![Report Success](docs/Success.png)
+
+### Deliberate Regression — 14 Failures at 54%
+
+Triggered by changing `PrimaryButton` padding from `16.dp` → `24.dp`. All 14 Button tests failed; Card and TopBar tests were unaffected.
+
+![Report Failed](docs/Failed.png)
 
 ---
 

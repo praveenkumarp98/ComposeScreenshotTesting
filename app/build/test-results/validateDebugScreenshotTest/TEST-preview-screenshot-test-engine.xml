@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuite name="Preview Screenshot Test Engine" tests="31" skipped="0" failures="0" errors="0" time="2.757" hostname="Praveens-MacBook-Pro-2.local" timestamp="2026-03-31T21:46:10">
+<testsuite name="Preview Screenshot Test Engine" tests="31" skipped="0" failures="0" errors="0" time="2.662" hostname="Praveens-MacBook-Pro-2.local" timestamp="2026-03-31T22:41:21">
 <properties>
 <property name="deviceId" value="Preview"/>
 <property name="deviceDisplayName" value="Preview"/>
 </properties>
-<testcase name="ButtonPrimaryHugeFontScale_Button_Primary_HugeFontScale" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.008">
+<testcase name="ButtonPrimaryHugeFontScale_Button_Primary_HugeFontScale" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.01">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
 <property name="PreviewScreenshot.previewName" value="Button_Primary_HugeFontScale"/>
@@ -18,7 +18,7 @@ unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshot
 display-name: ButtonPrimaryHugeFontScale_Button_Primary_HugeFontScale
 ]]></system-out>
 </testcase>
-<testcase name="CardContentLongTextLightMode_Card_Content_LongText_LightMode" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.027">
+<testcase name="CardContentLongTextLightMode_Card_Content_LongText_LightMode" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.026">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
 <property name="PreviewScreenshot.previewName" value="Card_Content_LongText_LightMode"/>
@@ -32,7 +32,7 @@ unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshot
 display-name: CardContentLongTextLightMode_Card_Content_LongText_LightMode
 ]]></system-out>
 </testcase>
-<testcase name="CardLoadingLargeFontScale_Card_Loading_LargeFontScale" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.018">
+<testcase name="CardLoadingLargeFontScale_Card_Loading_LargeFontScale" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.016">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
 <property name="PreviewScreenshot.previewName" value="Card_Loading_LargeFontScale"/>
@@ -46,7 +46,7 @@ unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshot
 display-name: CardLoadingLargeFontScale_Card_Loading_LargeFontScale
 ]]></system-out>
 </testcase>
-<testcase name="TopBarLightMode_TopBar_LightMode" classname="com.example.screenshottesting.TopBarPreviewScreenshots" time="0.015">
+<testcase name="TopBarLightMode_TopBar_LightMode" classname="com.example.screenshottesting.TopBarPreviewScreenshots" time="0.011">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
 <property name="PreviewScreenshot.previewName" value="TopBar_LightMode"/>
@@ -60,7 +60,7 @@ unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshot
 display-name: TopBarLightMode_TopBar_LightMode
 ]]></system-out>
 </testcase>
-<testcase name="ButtonPrimaryLongLabelLightMode_Button_Primary_LongLabel_LightMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.009">
+<testcase name="ButtonPrimaryLongLabelLightMode_Button_Primary_LongLabel_LightMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.01">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
 <property name="PreviewScreenshot.previewName" value="Button_Primary_LongLabel_LightMode"/>
@@ -74,7 +74,7 @@ unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshot
 display-name: ButtonPrimaryLongLabelLightMode_Button_Primary_LongLabel_LightMode
 ]]></system-out>
 </testcase>
-<testcase name="CardContentLargeFontScale_Card_Content_LargeFontScale" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.028">
+<testcase name="CardContentLargeFontScale_Card_Content_LargeFontScale" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.027">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
 <property name="PreviewScreenshot.previewName" value="Card_Content_LargeFontScale"/>
@@ -88,7 +88,7 @@ unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshot
 display-name: CardContentLargeFontScale_Card_Content_LargeFontScale
 ]]></system-out>
 </testcase>
-<testcase name="ButtonSecondaryLightMode_Button_Secondary_LightMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.005">
+<testcase name="ButtonSecondaryLightMode_Button_Secondary_LightMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.006">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
 <property name="PreviewScreenshot.previewName" value="Button_Secondary_LightMode"/>
@@ -102,7 +102,7 @@ unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshot
 display-name: ButtonSecondaryLightMode_Button_Secondary_LightMode
 ]]></system-out>
 </testcase>
-<testcase name="TopBarDarkMode_TopBar_DarkMode" classname="com.example.screenshottesting.TopBarPreviewScreenshots" time="0.012">
+<testcase name="TopBarDarkMode_TopBar_DarkMode" classname="com.example.screenshottesting.TopBarPreviewScreenshots" time="0.011">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
 <property name="PreviewScreenshot.previewName" value="TopBar_DarkMode"/>
@@ -116,7 +116,7 @@ unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshot
 display-name: TopBarDarkMode_TopBar_DarkMode
 ]]></system-out>
 </testcase>
-<testcase name="CardContentRtlLocale_Card_Content_RtlLocale" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.023">
+<testcase name="CardContentRtlLocale_Card_Content_RtlLocale" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.02">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
 <property name="PreviewScreenshot.previewName" value="Card_Content_RtlLocale"/>
@@ -158,7 +158,7 @@ unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshot
 display-name: CardContentNoIconLightMode_Card_Content_NoIcon_LightMode
 ]]></system-out>
 </testcase>
-<testcase name="CardContentLightMode_Card_Content_LightMode" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.021">
+<testcase name="CardContentLightMode_Card_Content_LightMode" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.019">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
 <property name="PreviewScreenshot.previewName" value="Card_Content_LightMode"/>
@@ -172,7 +172,7 @@ unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshot
 display-name: CardContentLightMode_Card_Content_LightMode
 ]]></system-out>
 </testcase>
-<testcase name="ButtonPrimaryDisabledDarkMode_Button_Primary_Disabled_DarkMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.005">
+<testcase name="ButtonPrimaryDisabledDarkMode_Button_Primary_Disabled_DarkMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.006">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
 <property name="PreviewScreenshot.previewName" value="Button_Primary_Disabled_DarkMode"/>
@@ -186,7 +186,7 @@ unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshot
 display-name: ButtonPrimaryDisabledDarkMode_Button_Primary_Disabled_DarkMode
 ]]></system-out>
 </testcase>
-<testcase name="CardLoadingLightMode_Card_Loading_LightMode" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.019">
+<testcase name="CardLoadingLightMode_Card_Loading_LightMode" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.018">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
 <property name="PreviewScreenshot.previewName" value="Card_Loading_LightMode"/>
@@ -214,7 +214,7 @@ unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshot
 display-name: ButtonPrimaryLargeFontScale_Button_Primary_LargeFontScale
 ]]></system-out>
 </testcase>
-<testcase name="CardContentNarrowWidth_Card_Content_NarrowWidth" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.014">
+<testcase name="CardContentNarrowWidth_Card_Content_NarrowWidth" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.013">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
 <property name="PreviewScreenshot.previewName" value="Card_Content_NarrowWidth"/>
@@ -242,7 +242,7 @@ unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshot
 display-name: CardLoadingDarkMode_Card_Loading_DarkMode
 ]]></system-out>
 </testcase>
-<testcase name="TopBarLongTitleLightMode_TopBar_LongTitle_LightMode" classname="com.example.screenshottesting.TopBarPreviewScreenshots" time="0.011">
+<testcase name="TopBarLongTitleLightMode_TopBar_LongTitle_LightMode" classname="com.example.screenshottesting.TopBarPreviewScreenshots" time="0.012">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
 <property name="PreviewScreenshot.previewName" value="TopBar_LongTitle_LightMode"/>
@@ -256,7 +256,7 @@ unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshot
 display-name: TopBarLongTitleLightMode_TopBar_LongTitle_LightMode
 ]]></system-out>
 </testcase>
-<testcase name="TopBarNoBackArrowLightMode_TopBar_NoBackArrow_LightMode" classname="com.example.screenshottesting.TopBarPreviewScreenshots" time="0.012">
+<testcase name="TopBarNoBackArrowLightMode_TopBar_NoBackArrow_LightMode" classname="com.example.screenshottesting.TopBarPreviewScreenshots" time="0.013">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
 <property name="PreviewScreenshot.previewName" value="TopBar_NoBackArrow_LightMode"/>
@@ -298,7 +298,7 @@ unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshot
 display-name: ButtonPrimaryLightMode_Button_Primary_LightMode
 ]]></system-out>
 </testcase>
-<testcase name="ButtonSecondaryLargeFontScale_Button_Secondary_LargeFontScale" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.006">
+<testcase name="ButtonSecondaryLargeFontScale_Button_Secondary_LargeFontScale" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.005">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
 <property name="PreviewScreenshot.previewName" value="Button_Secondary_LargeFontScale"/>
@@ -340,7 +340,7 @@ unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshot
 display-name: ButtonPrimarySmallFontScale_Button_Primary_SmallFontScale
 ]]></system-out>
 </testcase>
-<testcase name="TopBarHugeFontScale_TopBar_HugeFontScale" classname="com.example.screenshottesting.TopBarPreviewScreenshots" time="0.011">
+<testcase name="TopBarHugeFontScale_TopBar_HugeFontScale" classname="com.example.screenshottesting.TopBarPreviewScreenshots" time="0.013">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
 <property name="PreviewScreenshot.previewName" value="TopBar_HugeFontScale"/>
@@ -354,7 +354,7 @@ unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshot
 display-name: TopBarHugeFontScale_TopBar_HugeFontScale
 ]]></system-out>
 </testcase>
-<testcase name="TopBarRtlLocale_TopBar_RtlLocale" classname="com.example.screenshottesting.TopBarPreviewScreenshots" time="0.012">
+<testcase name="TopBarRtlLocale_TopBar_RtlLocale" classname="com.example.screenshottesting.TopBarPreviewScreenshots" time="0.011">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
 <property name="PreviewScreenshot.previewName" value="TopBar_RtlLocale"/>
@@ -396,7 +396,7 @@ unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshot
 display-name: TopBarLargeFontScale_TopBar_LargeFontScale
 ]]></system-out>
 </testcase>
-<testcase name="ButtonPrimaryDarkMode_Button_Primary_DarkMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.005">
+<testcase name="ButtonPrimaryDarkMode_Button_Primary_DarkMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.006">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
 <property name="PreviewScreenshot.previewName" value="Button_Primary_DarkMode"/>
