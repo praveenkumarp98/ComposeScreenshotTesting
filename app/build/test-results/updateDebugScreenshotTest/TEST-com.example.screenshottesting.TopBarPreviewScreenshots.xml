@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.screenshottesting.TopBarPreviewScreenshots" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-03-31T16:06:38" hostname="Praveens-MacBook-Pro-2.local" time="0.184">
+  <properties/>
+  <testcase name="TopBarLightMode_TopBar_LightMode" classname="com.example.screenshottesting.TopBarPreviewScreenshots" time="0.011"/>
+  <testcase name="TopBarLargeFontScale_TopBar_LargeFontScale" classname="com.example.screenshottesting.TopBarPreviewScreenshots" time="0.013"/>
+  <testcase name="TopBarHugeFontScale_TopBar_HugeFontScale" classname="com.example.screenshottesting.TopBarPreviewScreenshots" time="0.011"/>
+  <testcase name="TopBarLongTitleLightMode_TopBar_LongTitle_LightMode" classname="com.example.screenshottesting.TopBarPreviewScreenshots" time="0.011"/>
+  <testcase name="TopBarDarkMode_TopBar_DarkMode" classname="com.example.screenshottesting.TopBarPreviewScreenshots" time="0.011"/>
+  <testcase name="TopBarRtlLocale_TopBar_RtlLocale" classname="com.example.screenshottesting.TopBarPreviewScreenshots" time="0.011"/>
+  <testcase name="TopBarNoBackArrowLightMode_TopBar_NoBackArrow_LightMode" classname="com.example.screenshottesting.TopBarPreviewScreenshots" time="0.014"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

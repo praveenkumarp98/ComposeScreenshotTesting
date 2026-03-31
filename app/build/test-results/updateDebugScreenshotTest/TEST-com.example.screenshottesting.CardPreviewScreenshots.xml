@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.screenshottesting.CardPreviewScreenshots" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-03-31T16:06:37" hostname="Praveens-MacBook-Pro-2.local" time="0.422">
+  <properties/>
+  <testcase name="CardContentLargeFontScale_Card_Content_LargeFontScale" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.028"/>
+  <testcase name="CardContentNarrowWidth_Card_Content_NarrowWidth" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.014"/>
+  <testcase name="CardContentRtlLocale_Card_Content_RtlLocale" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.021"/>
+  <testcase name="CardLoadingLargeFontScale_Card_Loading_LargeFontScale" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.022"/>
+  <testcase name="CardContentNoIconLightMode_Card_Content_NoIcon_LightMode" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.023"/>
+  <testcase name="CardContentLightMode_Card_Content_LightMode" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.022"/>
+  <testcase name="CardContentDarkMode_Card_Content_DarkMode" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.02"/>
+  <testcase name="CardContentLongTextLightMode_Card_Content_LongText_LightMode" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.027"/>
+  <testcase name="CardLoadingLightMode_Card_Loading_LightMode" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.022"/>
+  <testcase name="CardLoadingDarkMode_Card_Loading_DarkMode" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.017"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

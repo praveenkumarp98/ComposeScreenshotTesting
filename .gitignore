@@ -1,0 +1,36 @@
+# Built output
+build/
+**/build/
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Local configuration (never commit — contains SDK path)
+local.properties
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+*.ipr
+*.iws
+.DS_Store
+
+# Kotlin / JVM
+*.class
+*.jar
+*.war
+*.aar
+
+# ProGuard mapping
+*.ap_
+*.dex
+
+# Test output (HTML reports, XML results) — regenerated on every run
+app/build/reports/
+app/build/test-results/
+
+# Screenshot test reference images are committed intentionally — do NOT ignore:
+# app/src/screenshotTestDebug/reference/
