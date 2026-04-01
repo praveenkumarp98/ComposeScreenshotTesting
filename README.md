@@ -44,9 +44,12 @@ app/
 │   │           └── Type.kt
 │   ├── screenshotTest/
 │   │   └── kotlin/com/example/screenshottesting/
-│   │       └── PreviewScreenshots.kt     # 31 @PreviewTest functions
+│   │       ├── PreviewScreenshots.kt          # 31 manual @PreviewTest functions
+│   │       ├── MultiPreviewExperiment.kt      # Custom multi-preview annotation demo
+│   │       ├── BuiltInMultiPreviewScreenshots.kt  # Built-in annotation demos
+│   │       └── ColorDiffExperiment.kt         # Color & size diff condition tests
 │   └── screenshotTestDebug/
-│       └── reference/                    # Committed baseline PNGs (31 files)
+│       └── reference/                    # Committed baseline PNGs (151 files)
 ```
 
 ---
@@ -219,7 +222,7 @@ AppTopBar(title = "Home", onNavigateBack = null)   // hides back arrow
 
 ---
 
-## Test Coverage — 31 Tests
+## Test Coverage — 151 Tests
 
 ### ButtonPreviewScreenshots (13 tests)
 
@@ -269,6 +272,221 @@ AppTopBar(title = "Home", onNavigateBack = null)   // hides back arrow
 
 ---
 
+## Multi-Preview Annotations
+
+### Custom Multi-Preview Annotation
+
+`com.android.compose.screenshot` (v0.0.1-alpha13) natively expands nested `@Preview` annotations inside a custom annotation — exactly as the IDE preview panel does. A single `@PreviewTest` function generates one reference PNG per `@Preview` entry inside the custom annotation.
+
+```kotlin
+// Define once
+@Preview(name = "Light", showBackground = true)
+@Preview(name = "Dark", showBackground = true, uiMode = UI_MODE_NIGHT_YES or UI_MODE_TYPE_NORMAL)
+annotation class LightDarkPreview
+
+// One function → two reference PNGs
+@PreviewTest
+@LightDarkPreview
+@Composable
+fun ButtonMultiPreview() {
+    AppTheme { PrimaryButton(label = "Confirm", onClick = {}) }
+}
+```
+
+**Result:** `ButtonMultiPreview_Light_fc5b723e_0.png` + `ButtonMultiPreview_Dark_87677776_0.png`
+
+<table>
+  <tr>
+    <td align="center"><b>Light</b></td>
+    <td align="center"><b>Dark</b></td>
+  </tr>
+  <tr>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/MultiPreviewExperimentScreenshots/ButtonMultiPreview_Light_fc5b723e_0.png" width="200"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/MultiPreviewExperimentScreenshots/ButtonMultiPreview_Dark_87677776_0.png" width="200"/></td>
+  </tr>
+</table>
+
+**Boilerplate reduction:**
+
+| | Before | After |
+|---|---|---|
+| Functions for 3 components × 5 variants | 15 functions | 3 functions |
+| Adding a new component | Write 5 functions | Write 1 function |
+| Adding a new variant | Edit N component files | Edit 1 annotation |
+| Reference image count | Same | Same |
+
+---
+
+### Built-in Multi-Preview Annotations
+
+Compose provides four built-in multi-preview annotations usable directly with `@PreviewTest`. Add `screenshotTestImplementation` for `compose-bom` and `ui-tooling-preview` to make them available in the `screenshotTest` source set.
+
+```kotlin
+screenshotTestImplementation(platform(libs.compose.bom))
+screenshotTestImplementation(libs.compose.ui.tooling.preview)
+```
+
+#### `@PreviewLightDark` — 2 PNGs per function (Light, Dark)
+
+<table>
+  <tr>
+    <td align="center"><b>Light</b></td>
+    <td align="center"><b>Dark</b></td>
+  </tr>
+  <tr>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/PreviewLightDarkScreenshots/PrimaryButtonLightDark_Light_b29dc7a7_0.png" width="200"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/PreviewLightDarkScreenshots/PrimaryButtonLightDark_Dark_d19fbf1f_0.png" width="200"/></td>
+  </tr>
+</table>
+
+#### `@PreviewFontScale` — 7 PNGs per function (85%, 100%, 115%, 130%, 150%, 180%, 200%)
+
+> **Note:** The correct annotation name is `@PreviewFontScale` (no trailing 's'). This was confirmed by inspecting the `ui-tooling-preview-1.7.4-sources.jar` directly.
+
+<table>
+  <tr>
+    <td align="center"><b>85%</b></td>
+    <td align="center"><b>100%</b></td>
+    <td align="center"><b>115%</b></td>
+    <td align="center"><b>130%</b></td>
+  </tr>
+  <tr>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/PreviewFontScaleScreenshots/PrimaryButtonFontScales_85%_9903910f_0.png" width="160"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/PreviewFontScaleScreenshots/PrimaryButtonFontScales_100%_d8fdc6a2_0.png" width="160"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/PreviewFontScaleScreenshots/PrimaryButtonFontScales_115%_02ba7b27_0.png" width="160"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/PreviewFontScaleScreenshots/PrimaryButtonFontScales_130%_877eaf96_0.png" width="160"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>150%</b></td>
+    <td align="center"><b>180%</b></td>
+    <td align="center"><b>200%</b></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/PreviewFontScaleScreenshots/PrimaryButtonFontScales_150%_c8748f69_0.png" width="160"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/PreviewFontScaleScreenshots/PrimaryButtonFontScales_180%_54e5fc70_0.png" width="160"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/PreviewFontScaleScreenshots/PrimaryButtonFontScales_200%_88d2734d_0.png" width="160"/></td>
+    <td></td>
+  </tr>
+</table>
+
+#### `@PreviewScreenSizes` — 5 PNGs per function (Phone, Landscape, Foldable, Tablet, Desktop)
+
+> **Note:** Generates 5 variants, not 4. Desktop is included alongside Phone, Landscape, Foldable, and Tablet.
+
+<table>
+  <tr>
+    <td align="center"><b>Phone</b></td>
+    <td align="center"><b>Phone Landscape</b></td>
+    <td align="center"><b>Unfolded Foldable</b></td>
+  </tr>
+  <tr>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/PreviewScreenSizesScreenshots/ContentCardScreenSizes_Phone_69f9ee8f_0.png" width="180"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/PreviewScreenSizesScreenshots/ContentCardScreenSizes_Phone - Landscape_43e84ea8_0.png" width="180"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/PreviewScreenSizesScreenshots/ContentCardScreenSizes_Unfolded Foldable_4e99773a_0.png" width="180"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Tablet</b></td>
+    <td align="center"><b>Desktop</b></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/PreviewScreenSizesScreenshots/ContentCardScreenSizes_Tablet_2a635744_0.png" width="180"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/PreviewScreenSizesScreenshots/ContentCardScreenSizes_Desktop_ca7d70fb_0.png" width="180"/></td>
+    <td></td>
+  </tr>
+</table>
+
+#### `@PreviewDynamicColors` — 4 PNGs per function (Red, Blue, Green, Yellow)
+
+> **Note:** `AppTheme` uses static `lightColorScheme`/`darkColorScheme` — no dynamic color. All 4 wallpaper variants render identically using the static Purple palette. Dynamic color requires `dynamicColorScheme(context)` at runtime, which is unavailable in Layoutlib.
+
+<table>
+  <tr>
+    <td align="center"><b>Red</b></td>
+    <td align="center"><b>Blue</b></td>
+    <td align="center"><b>Green</b></td>
+    <td align="center"><b>Yellow</b></td>
+  </tr>
+  <tr>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/PreviewDynamicColorsScreenshots/PrimaryButtonDynamicColors_Red_91774be3_0.png" width="160"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/PreviewDynamicColorsScreenshots/PrimaryButtonDynamicColors_Blue_f392991b_0.png" width="160"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/PreviewDynamicColorsScreenshots/PrimaryButtonDynamicColors_Green_da0ca2d3_0.png" width="160"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/PreviewDynamicColorsScreenshots/PrimaryButtonDynamicColors_Yellow_69556b7a_0.png" width="160"/></td>
+  </tr>
+</table>
+
+#### Stacking All 4 Annotations — Additive, Not Combinatorial
+
+Annotations stack additively: `@PreviewLightDark` + `@PreviewFontScale` + `@PreviewScreenSizes` + `@PreviewDynamicColors` = **2+7+5+4 = 18 PNGs** per function, not 2×7×5×4=280.
+
+```kotlin
+@PreviewTest
+@PreviewLightDark
+@PreviewFontScale
+@PreviewScreenSizes
+@PreviewDynamicColors
+@Composable
+fun PrimaryButtonAllAnnotations() {
+    AppTheme { PrimaryButton(label = "Confirm", onClick = {}) }
+}
+```
+
+<table>
+  <tr>
+    <td align="center"><b>Light</b></td>
+    <td align="center"><b>Dark</b></td>
+    <td align="center"><b>85%</b></td>
+    <td align="center"><b>200%</b></td>
+    <td align="center"><b>Phone</b></td>
+    <td align="center"><b>Tablet</b></td>
+  </tr>
+  <tr>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_Light_b29dc7a7_0.png" width="120"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_Dark_d19fbf1f_0.png" width="120"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_85%_9903910f_0.png" width="120"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_200%_88d2734d_0.png" width="120"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_Phone_69f9ee8f_0.png" width="120"/></td>
+    <td><img src="app/src/screenshotTestDebug/reference/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_Tablet_2a635744_0.png" width="120"/></td>
+  </tr>
+</table>
+
+---
+
+## Color & Size Diff Conditions
+
+`ColorDiffExperiment.kt` documents every condition that produces or suppresses a diff image.
+
+### Diff Image Produced (test FAILS + diff PNG generated)
+
+| Scenario | Change | Reason |
+|---|---|---|
+| **A** | `Color.Red` → `Color.Blue` | All button pixels change — obvious delta |
+| **B** | `0xFFE040FB` → `0xFF7C4DFF` hue shift | Per-pixel delta exceeds threshold across button face |
+| **C** | Theme `Purple40` blue channel `+1` (single step) | Even 1-step change on enough pixels exceeds `0.0001f` |
+| **F** | Same hue shift in dark mode | Detection works identically in dark mode |
+
+### Test FAILS but NO Diff Image (dimension mismatch)
+
+| Scenario | Change | Rendered size vs Reference |
+|---|---|---|
+| **D** | Padding `16dp` → `2dp` | `352×210` vs `426×210` — width changed |
+| **E** | `.width(200dp)` → `.width(160dp)` | `504×210` vs `609×210` — width changed |
+
+> When image dimensions differ the engine cannot pixel-overlay two images of different sizes. The test fails with an `ImageComparisonAssertionError` but **no diff PNG is generated**.
+
+### No Diff, Test PASSES (blind spots)
+
+| Scenario | Change | Reason |
+|---|---|---|
+| **G** | No change | Trivially identical |
+| **H** | `Color.Red` → `Color.Blue` with `alpha = 0f` | Transparent pixels render identically regardless of color |
+| **J** | `containerColor = Red` → `Blue`, `enabled = false` | Material3 ignores `containerColor` when disabled; `disabledContainerColor` from theme is used |
+| **K** | `Color.Red` → `Color(0xFFFF0000)` | Same pixel value, different Kotlin syntax |
+| **L** | `showBackground = false`, composable unchanged | Background not part of the PNG |
+
+---
+
 ## Gradle Setup
 
 ### `gradle/libs.versions.toml`
@@ -314,6 +532,10 @@ android {
 dependencies {
     screenshotTestImplementation(libs.screenshot.validation.api)
     screenshotTestImplementation(libs.compose.ui.tooling)
+    // Required for built-in annotations: @PreviewLightDark, @PreviewFontScale,
+    // @PreviewScreenSizes, @PreviewDynamicColors
+    screenshotTestImplementation(platform(libs.compose.bom))
+    screenshotTestImplementation(libs.compose.ui.tooling.preview)
 }
 ```
 
@@ -322,11 +544,13 @@ dependencies {
 ## Running the Tests
 
 ```bash
-# Run all 31 screenshot tests
+# Run all 151 screenshot tests
 ./gradlew validateDebugScreenshotTest
 
 # Run a specific class
 ./gradlew validateDebugScreenshotTest --tests "*.ButtonPreviewScreenshots"
+./gradlew validateDebugScreenshotTest --tests "*.PreviewLightDarkScreenshots"
+./gradlew validateDebugScreenshotTest --tests "*.BuiltInMultiPreviewScreenshots"
 
 # Run a single test function
 ./gradlew validateDebugScreenshotTest --tests "*.ButtonPreviewScreenshots.ButtonPrimaryRtlLocale"
@@ -339,7 +563,7 @@ dependencies {
 
 ## Test Report
 
-### All 31 Tests Passing — 100% Successful
+### All 151 Tests Passing — 100% Successful
 
 ![Report Success](docs/Success.png)
 
@@ -397,3 +621,4 @@ Test patterns adapted from [Now in Android (NiA)](https://github.com/android/now
 - Narrow screen width (`widthDp = 280`)
 - Leading icon button layout
 - `topAppBar_hugeFont` test pattern
+- `captureMultiTheme` approach (Roborazzi) → equivalent achieved here via custom multi-preview annotations and built-in `@PreviewLightDark` / `@PreviewFontScale`

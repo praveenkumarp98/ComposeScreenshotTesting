@@ -1,441 +1,259 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuite name="Preview Screenshot Test Engine" tests="31" skipped="0" failures="0" errors="0" time="2.662" hostname="Praveens-MacBook-Pro-2.local" timestamp="2026-03-31T22:41:21">
+<testsuite name="Preview Screenshot Test Engine" tests="18" skipped="0" failures="0" errors="0" time="2.526" hostname="Praveens-MacBook-Pro-2.local" timestamp="2026-04-01T16:14:02">
 <properties>
 <property name="deviceId" value="Preview"/>
 <property name="deviceDisplayName" value="Preview"/>
 </properties>
-<testcase name="ButtonPrimaryHugeFontScale_Button_Primary_HugeFontScale" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.01">
+<testcase name="PrimaryButtonAllAnnotations_Phone - Landscape_{device=spec:width = 411dp, height = 891dp, orientation = landscape, dpi = 420, showSystemUi=true}" classname="com.example.screenshottesting.AllBuiltInAnnotationsScreenshots" time="0.005">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="Button_Primary_HugeFontScale"/>
-<property name="PreviewScreenshot.methodName" value="ButtonPrimaryHugeFontScale"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryHugeFontScale_Button_Primary_HugeFontScale_8de1a3c3_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryHugeFontScale_Button_Primary_HugeFontScale_8de1a3c3_0.png"/>
+<property name="PreviewScreenshot.previewName" value="Phone - Landscape"/>
+<property name="PreviewScreenshot.methodName" value="PrimaryButtonAllAnnotations"/>
+<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_Phone - Landscape_43e84ea8_0.png"/>
+<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_Phone - Landscape_43e84ea8_0.png"/>
 </properties>
 
 <system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.ButtonPreviewScreenshots]/[method:ButtonPrimaryHugeFontScale]/[previewAnnotation:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonPrimaryHugeFontScale_Button_Primary_HugeFontScale_8de1a3c3]/[previewId:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonPrimaryHugeFontScale_Button_Primary_HugeFontScale_8de1a3c3_0]
-display-name: ButtonPrimaryHugeFontScale_Button_Primary_HugeFontScale
+unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots]/[method:PrimaryButtonAllAnnotations]/[previewAnnotation:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_Phone - Landscape_43e84ea8]/[previewId:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_Phone - Landscape_43e84ea8_0]
+display-name: PrimaryButtonAllAnnotations_Phone - Landscape_{device=spec:width = 411dp, height = 891dp, orientation = landscape, dpi = 420, showSystemUi=true}
 ]]></system-out>
 </testcase>
-<testcase name="CardContentLongTextLightMode_Card_Content_LongText_LightMode" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.026">
+<testcase name="PrimaryButtonAllAnnotations_150%_{fontScale=1.5}" classname="com.example.screenshottesting.AllBuiltInAnnotationsScreenshots" time="0.006">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="Card_Content_LongText_LightMode"/>
-<property name="PreviewScreenshot.methodName" value="CardContentLongTextLightMode"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/CardPreviewScreenshots/CardContentLongTextLightMode_Card_Content_LongText_LightMode_c24c30e2_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/CardPreviewScreenshots/CardContentLongTextLightMode_Card_Content_LongText_LightMode_c24c30e2_0.png"/>
+<property name="PreviewScreenshot.previewName" value="150%"/>
+<property name="PreviewScreenshot.methodName" value="PrimaryButtonAllAnnotations"/>
+<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_150%_c8748f69_0.png"/>
+<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_150%_c8748f69_0.png"/>
 </properties>
 
 <system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.CardPreviewScreenshots]/[method:CardContentLongTextLightMode]/[previewAnnotation:com.example.screenshottesting.CardPreviewScreenshots.CardContentLongTextLightMode_Card_Content_LongText_LightMode_c24c30e2]/[previewId:com.example.screenshottesting.CardPreviewScreenshots.CardContentLongTextLightMode_Card_Content_LongText_LightMode_c24c30e2_0]
-display-name: CardContentLongTextLightMode_Card_Content_LongText_LightMode
+unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots]/[method:PrimaryButtonAllAnnotations]/[previewAnnotation:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_150%25_c8748f69]/[previewId:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_150%25_c8748f69_0]
+display-name: PrimaryButtonAllAnnotations_150%_{fontScale=1.5}
 ]]></system-out>
 </testcase>
-<testcase name="CardLoadingLargeFontScale_Card_Loading_LargeFontScale" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.016">
+<testcase name="PrimaryButtonAllAnnotations_115%_{fontScale=1.15}" classname="com.example.screenshottesting.AllBuiltInAnnotationsScreenshots" time="0.006">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="Card_Loading_LargeFontScale"/>
-<property name="PreviewScreenshot.methodName" value="CardLoadingLargeFontScale"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/CardPreviewScreenshots/CardLoadingLargeFontScale_Card_Loading_LargeFontScale_e2fe839d_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/CardPreviewScreenshots/CardLoadingLargeFontScale_Card_Loading_LargeFontScale_e2fe839d_0.png"/>
+<property name="PreviewScreenshot.previewName" value="115%"/>
+<property name="PreviewScreenshot.methodName" value="PrimaryButtonAllAnnotations"/>
+<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_115%_02ba7b27_0.png"/>
+<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_115%_02ba7b27_0.png"/>
 </properties>
 
 <system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.CardPreviewScreenshots]/[method:CardLoadingLargeFontScale]/[previewAnnotation:com.example.screenshottesting.CardPreviewScreenshots.CardLoadingLargeFontScale_Card_Loading_LargeFontScale_e2fe839d]/[previewId:com.example.screenshottesting.CardPreviewScreenshots.CardLoadingLargeFontScale_Card_Loading_LargeFontScale_e2fe839d_0]
-display-name: CardLoadingLargeFontScale_Card_Loading_LargeFontScale
+unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots]/[method:PrimaryButtonAllAnnotations]/[previewAnnotation:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_115%25_02ba7b27]/[previewId:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_115%25_02ba7b27_0]
+display-name: PrimaryButtonAllAnnotations_115%_{fontScale=1.15}
 ]]></system-out>
 </testcase>
-<testcase name="TopBarLightMode_TopBar_LightMode" classname="com.example.screenshottesting.TopBarPreviewScreenshots" time="0.011">
+<testcase name="PrimaryButtonAllAnnotations_Yellow_{wallpaper=3}" classname="com.example.screenshottesting.AllBuiltInAnnotationsScreenshots" time="0.004">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="TopBar_LightMode"/>
-<property name="PreviewScreenshot.methodName" value="TopBarLightMode"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/TopBarPreviewScreenshots/TopBarLightMode_TopBar_LightMode_311839af_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/TopBarPreviewScreenshots/TopBarLightMode_TopBar_LightMode_311839af_0.png"/>
+<property name="PreviewScreenshot.previewName" value="Yellow"/>
+<property name="PreviewScreenshot.methodName" value="PrimaryButtonAllAnnotations"/>
+<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_Yellow_69556b7a_0.png"/>
+<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_Yellow_69556b7a_0.png"/>
 </properties>
 
 <system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.TopBarPreviewScreenshots]/[method:TopBarLightMode]/[previewAnnotation:com.example.screenshottesting.TopBarPreviewScreenshots.TopBarLightMode_TopBar_LightMode_311839af]/[previewId:com.example.screenshottesting.TopBarPreviewScreenshots.TopBarLightMode_TopBar_LightMode_311839af_0]
-display-name: TopBarLightMode_TopBar_LightMode
+unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots]/[method:PrimaryButtonAllAnnotations]/[previewAnnotation:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_Yellow_69556b7a]/[previewId:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_Yellow_69556b7a_0]
+display-name: PrimaryButtonAllAnnotations_Yellow_{wallpaper=3}
 ]]></system-out>
 </testcase>
-<testcase name="ButtonPrimaryLongLabelLightMode_Button_Primary_LongLabel_LightMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.01">
+<testcase name="PrimaryButtonAllAnnotations_Blue_{wallpaper=2}" classname="com.example.screenshottesting.AllBuiltInAnnotationsScreenshots" time="0.004">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="Button_Primary_LongLabel_LightMode"/>
-<property name="PreviewScreenshot.methodName" value="ButtonPrimaryLongLabelLightMode"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryLongLabelLightMode_Button_Primary_LongLabel_LightMode_f18f57d7_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryLongLabelLightMode_Button_Primary_LongLabel_LightMode_f18f57d7_0.png"/>
+<property name="PreviewScreenshot.previewName" value="Blue"/>
+<property name="PreviewScreenshot.methodName" value="PrimaryButtonAllAnnotations"/>
+<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_Blue_f392991b_0.png"/>
+<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_Blue_f392991b_0.png"/>
 </properties>
 
 <system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.ButtonPreviewScreenshots]/[method:ButtonPrimaryLongLabelLightMode]/[previewAnnotation:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonPrimaryLongLabelLightMode_Button_Primary_LongLabel_LightMode_f18f57d7]/[previewId:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonPrimaryLongLabelLightMode_Button_Primary_LongLabel_LightMode_f18f57d7_0]
-display-name: ButtonPrimaryLongLabelLightMode_Button_Primary_LongLabel_LightMode
+unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots]/[method:PrimaryButtonAllAnnotations]/[previewAnnotation:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_Blue_f392991b]/[previewId:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_Blue_f392991b_0]
+display-name: PrimaryButtonAllAnnotations_Blue_{wallpaper=2}
 ]]></system-out>
 </testcase>
-<testcase name="CardContentLargeFontScale_Card_Content_LargeFontScale" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.027">
+<testcase name="PrimaryButtonAllAnnotations_Tablet_{device=spec:id=reference_tablet,shape=Normal,width=1280,height=800,unit=dp,dpi=240, showSystemUi=true}" classname="com.example.screenshottesting.AllBuiltInAnnotationsScreenshots" time="0.004">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="Card_Content_LargeFontScale"/>
-<property name="PreviewScreenshot.methodName" value="CardContentLargeFontScale"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/CardPreviewScreenshots/CardContentLargeFontScale_Card_Content_LargeFontScale_239f98f7_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/CardPreviewScreenshots/CardContentLargeFontScale_Card_Content_LargeFontScale_239f98f7_0.png"/>
+<property name="PreviewScreenshot.previewName" value="Tablet"/>
+<property name="PreviewScreenshot.methodName" value="PrimaryButtonAllAnnotations"/>
+<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_Tablet_2a635744_0.png"/>
+<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_Tablet_2a635744_0.png"/>
 </properties>
 
 <system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.CardPreviewScreenshots]/[method:CardContentLargeFontScale]/[previewAnnotation:com.example.screenshottesting.CardPreviewScreenshots.CardContentLargeFontScale_Card_Content_LargeFontScale_239f98f7]/[previewId:com.example.screenshottesting.CardPreviewScreenshots.CardContentLargeFontScale_Card_Content_LargeFontScale_239f98f7_0]
-display-name: CardContentLargeFontScale_Card_Content_LargeFontScale
+unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots]/[method:PrimaryButtonAllAnnotations]/[previewAnnotation:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_Tablet_2a635744]/[previewId:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_Tablet_2a635744_0]
+display-name: PrimaryButtonAllAnnotations_Tablet_{device=spec:id=reference_tablet,shape=Normal,width=1280,height=800,unit=dp,dpi=240, showSystemUi=true}
 ]]></system-out>
 </testcase>
-<testcase name="ButtonSecondaryLightMode_Button_Secondary_LightMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.006">
+<testcase name="PrimaryButtonAllAnnotations_Desktop_{device=spec:id=reference_desktop,shape=Normal,width=1920,height=1080,unit=dp,dpi=160, showSystemUi=true}" classname="com.example.screenshottesting.AllBuiltInAnnotationsScreenshots" time="0.004">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="Button_Secondary_LightMode"/>
-<property name="PreviewScreenshot.methodName" value="ButtonSecondaryLightMode"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonSecondaryLightMode_Button_Secondary_LightMode_ccc67921_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonSecondaryLightMode_Button_Secondary_LightMode_ccc67921_0.png"/>
+<property name="PreviewScreenshot.previewName" value="Desktop"/>
+<property name="PreviewScreenshot.methodName" value="PrimaryButtonAllAnnotations"/>
+<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_Desktop_ca7d70fb_0.png"/>
+<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_Desktop_ca7d70fb_0.png"/>
 </properties>
 
 <system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.ButtonPreviewScreenshots]/[method:ButtonSecondaryLightMode]/[previewAnnotation:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonSecondaryLightMode_Button_Secondary_LightMode_ccc67921]/[previewId:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonSecondaryLightMode_Button_Secondary_LightMode_ccc67921_0]
-display-name: ButtonSecondaryLightMode_Button_Secondary_LightMode
+unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots]/[method:PrimaryButtonAllAnnotations]/[previewAnnotation:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_Desktop_ca7d70fb]/[previewId:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_Desktop_ca7d70fb_0]
+display-name: PrimaryButtonAllAnnotations_Desktop_{device=spec:id=reference_desktop,shape=Normal,width=1920,height=1080,unit=dp,dpi=160, showSystemUi=true}
 ]]></system-out>
 </testcase>
-<testcase name="TopBarDarkMode_TopBar_DarkMode" classname="com.example.screenshottesting.TopBarPreviewScreenshots" time="0.011">
+<testcase name="PrimaryButtonAllAnnotations_180%_{fontScale=1.8}" classname="com.example.screenshottesting.AllBuiltInAnnotationsScreenshots" time="0.008">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="TopBar_DarkMode"/>
-<property name="PreviewScreenshot.methodName" value="TopBarDarkMode"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/TopBarPreviewScreenshots/TopBarDarkMode_TopBar_DarkMode_84e2bfcf_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/TopBarPreviewScreenshots/TopBarDarkMode_TopBar_DarkMode_84e2bfcf_0.png"/>
+<property name="PreviewScreenshot.previewName" value="180%"/>
+<property name="PreviewScreenshot.methodName" value="PrimaryButtonAllAnnotations"/>
+<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_180%_54e5fc70_0.png"/>
+<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_180%_54e5fc70_0.png"/>
 </properties>
 
 <system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.TopBarPreviewScreenshots]/[method:TopBarDarkMode]/[previewAnnotation:com.example.screenshottesting.TopBarPreviewScreenshots.TopBarDarkMode_TopBar_DarkMode_84e2bfcf]/[previewId:com.example.screenshottesting.TopBarPreviewScreenshots.TopBarDarkMode_TopBar_DarkMode_84e2bfcf_0]
-display-name: TopBarDarkMode_TopBar_DarkMode
+unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots]/[method:PrimaryButtonAllAnnotations]/[previewAnnotation:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_180%25_54e5fc70]/[previewId:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_180%25_54e5fc70_0]
+display-name: PrimaryButtonAllAnnotations_180%_{fontScale=1.8}
 ]]></system-out>
 </testcase>
-<testcase name="CardContentRtlLocale_Card_Content_RtlLocale" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.02">
+<testcase name="PrimaryButtonAllAnnotations_100%_{fontScale=1.0}" classname="com.example.screenshottesting.AllBuiltInAnnotationsScreenshots" time="0.006">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="Card_Content_RtlLocale"/>
-<property name="PreviewScreenshot.methodName" value="CardContentRtlLocale"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/CardPreviewScreenshots/CardContentRtlLocale_Card_Content_RtlLocale_a0247b20_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/CardPreviewScreenshots/CardContentRtlLocale_Card_Content_RtlLocale_a0247b20_0.png"/>
+<property name="PreviewScreenshot.previewName" value="100%"/>
+<property name="PreviewScreenshot.methodName" value="PrimaryButtonAllAnnotations"/>
+<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_100%_d8fdc6a2_0.png"/>
+<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_100%_d8fdc6a2_0.png"/>
 </properties>
 
 <system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.CardPreviewScreenshots]/[method:CardContentRtlLocale]/[previewAnnotation:com.example.screenshottesting.CardPreviewScreenshots.CardContentRtlLocale_Card_Content_RtlLocale_a0247b20]/[previewId:com.example.screenshottesting.CardPreviewScreenshots.CardContentRtlLocale_Card_Content_RtlLocale_a0247b20_0]
-display-name: CardContentRtlLocale_Card_Content_RtlLocale
+unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots]/[method:PrimaryButtonAllAnnotations]/[previewAnnotation:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_100%25_d8fdc6a2]/[previewId:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_100%25_d8fdc6a2_0]
+display-name: PrimaryButtonAllAnnotations_100%_{fontScale=1.0}
 ]]></system-out>
 </testcase>
-<testcase name="CardContentDarkMode_Card_Content_DarkMode" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.021">
+<testcase name="PrimaryButtonAllAnnotations_Green_{wallpaper=1}" classname="com.example.screenshottesting.AllBuiltInAnnotationsScreenshots" time="0.004">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="Card_Content_DarkMode"/>
-<property name="PreviewScreenshot.methodName" value="CardContentDarkMode"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/CardPreviewScreenshots/CardContentDarkMode_Card_Content_DarkMode_d6142fcf_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/CardPreviewScreenshots/CardContentDarkMode_Card_Content_DarkMode_d6142fcf_0.png"/>
+<property name="PreviewScreenshot.previewName" value="Green"/>
+<property name="PreviewScreenshot.methodName" value="PrimaryButtonAllAnnotations"/>
+<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_Green_da0ca2d3_0.png"/>
+<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_Green_da0ca2d3_0.png"/>
 </properties>
 
 <system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.CardPreviewScreenshots]/[method:CardContentDarkMode]/[previewAnnotation:com.example.screenshottesting.CardPreviewScreenshots.CardContentDarkMode_Card_Content_DarkMode_d6142fcf]/[previewId:com.example.screenshottesting.CardPreviewScreenshots.CardContentDarkMode_Card_Content_DarkMode_d6142fcf_0]
-display-name: CardContentDarkMode_Card_Content_DarkMode
+unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots]/[method:PrimaryButtonAllAnnotations]/[previewAnnotation:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_Green_da0ca2d3]/[previewId:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_Green_da0ca2d3_0]
+display-name: PrimaryButtonAllAnnotations_Green_{wallpaper=1}
 ]]></system-out>
 </testcase>
-<testcase name="CardContentNoIconLightMode_Card_Content_NoIcon_LightMode" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.022">
+<testcase name="PrimaryButtonAllAnnotations_200%_{fontScale=2.0}" classname="com.example.screenshottesting.AllBuiltInAnnotationsScreenshots" time="0.008">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="Card_Content_NoIcon_LightMode"/>
-<property name="PreviewScreenshot.methodName" value="CardContentNoIconLightMode"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/CardPreviewScreenshots/CardContentNoIconLightMode_Card_Content_NoIcon_LightMode_e6109567_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/CardPreviewScreenshots/CardContentNoIconLightMode_Card_Content_NoIcon_LightMode_e6109567_0.png"/>
+<property name="PreviewScreenshot.previewName" value="200%"/>
+<property name="PreviewScreenshot.methodName" value="PrimaryButtonAllAnnotations"/>
+<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_200%_88d2734d_0.png"/>
+<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_200%_88d2734d_0.png"/>
 </properties>
 
 <system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.CardPreviewScreenshots]/[method:CardContentNoIconLightMode]/[previewAnnotation:com.example.screenshottesting.CardPreviewScreenshots.CardContentNoIconLightMode_Card_Content_NoIcon_LightMode_e6109567]/[previewId:com.example.screenshottesting.CardPreviewScreenshots.CardContentNoIconLightMode_Card_Content_NoIcon_LightMode_e6109567_0]
-display-name: CardContentNoIconLightMode_Card_Content_NoIcon_LightMode
+unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots]/[method:PrimaryButtonAllAnnotations]/[previewAnnotation:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_200%25_88d2734d]/[previewId:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_200%25_88d2734d_0]
+display-name: PrimaryButtonAllAnnotations_200%_{fontScale=2.0}
 ]]></system-out>
 </testcase>
-<testcase name="CardContentLightMode_Card_Content_LightMode" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.019">
+<testcase name="PrimaryButtonAllAnnotations_85%_{fontScale=0.85}" classname="com.example.screenshottesting.AllBuiltInAnnotationsScreenshots" time="0.006">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="Card_Content_LightMode"/>
-<property name="PreviewScreenshot.methodName" value="CardContentLightMode"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/CardPreviewScreenshots/CardContentLightMode_Card_Content_LightMode_606ecd1b_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/CardPreviewScreenshots/CardContentLightMode_Card_Content_LightMode_606ecd1b_0.png"/>
+<property name="PreviewScreenshot.previewName" value="85%"/>
+<property name="PreviewScreenshot.methodName" value="PrimaryButtonAllAnnotations"/>
+<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_85%_9903910f_0.png"/>
+<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_85%_9903910f_0.png"/>
 </properties>
 
 <system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.CardPreviewScreenshots]/[method:CardContentLightMode]/[previewAnnotation:com.example.screenshottesting.CardPreviewScreenshots.CardContentLightMode_Card_Content_LightMode_606ecd1b]/[previewId:com.example.screenshottesting.CardPreviewScreenshots.CardContentLightMode_Card_Content_LightMode_606ecd1b_0]
-display-name: CardContentLightMode_Card_Content_LightMode
+unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots]/[method:PrimaryButtonAllAnnotations]/[previewAnnotation:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_85%25_9903910f]/[previewId:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_85%25_9903910f_0]
+display-name: PrimaryButtonAllAnnotations_85%_{fontScale=0.85}
 ]]></system-out>
 </testcase>
-<testcase name="ButtonPrimaryDisabledDarkMode_Button_Primary_Disabled_DarkMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.006">
+<testcase name="PrimaryButtonAllAnnotations_Red_{wallpaper=0}" classname="com.example.screenshottesting.AllBuiltInAnnotationsScreenshots" time="0.004">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="Button_Primary_Disabled_DarkMode"/>
-<property name="PreviewScreenshot.methodName" value="ButtonPrimaryDisabledDarkMode"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryDisabledDarkMode_Button_Primary_Disabled_DarkMode_b125bd7a_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryDisabledDarkMode_Button_Primary_Disabled_DarkMode_b125bd7a_0.png"/>
+<property name="PreviewScreenshot.previewName" value="Red"/>
+<property name="PreviewScreenshot.methodName" value="PrimaryButtonAllAnnotations"/>
+<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_Red_91774be3_0.png"/>
+<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_Red_91774be3_0.png"/>
 </properties>
 
 <system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.ButtonPreviewScreenshots]/[method:ButtonPrimaryDisabledDarkMode]/[previewAnnotation:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonPrimaryDisabledDarkMode_Button_Primary_Disabled_DarkMode_b125bd7a]/[previewId:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonPrimaryDisabledDarkMode_Button_Primary_Disabled_DarkMode_b125bd7a_0]
-display-name: ButtonPrimaryDisabledDarkMode_Button_Primary_Disabled_DarkMode
+unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots]/[method:PrimaryButtonAllAnnotations]/[previewAnnotation:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_Red_91774be3]/[previewId:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_Red_91774be3_0]
+display-name: PrimaryButtonAllAnnotations_Red_{wallpaper=0}
 ]]></system-out>
 </testcase>
-<testcase name="CardLoadingLightMode_Card_Loading_LightMode" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.018">
+<testcase name="PrimaryButtonAllAnnotations_Dark_{uiMode=33}" classname="com.example.screenshottesting.AllBuiltInAnnotationsScreenshots" time="0.01">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="Card_Loading_LightMode"/>
-<property name="PreviewScreenshot.methodName" value="CardLoadingLightMode"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/CardPreviewScreenshots/CardLoadingLightMode_Card_Loading_LightMode_2198ca52_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/CardPreviewScreenshots/CardLoadingLightMode_Card_Loading_LightMode_2198ca52_0.png"/>
+<property name="PreviewScreenshot.previewName" value="Dark"/>
+<property name="PreviewScreenshot.methodName" value="PrimaryButtonAllAnnotations"/>
+<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_Dark_d19fbf1f_0.png"/>
+<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_Dark_d19fbf1f_0.png"/>
 </properties>
 
 <system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.CardPreviewScreenshots]/[method:CardLoadingLightMode]/[previewAnnotation:com.example.screenshottesting.CardPreviewScreenshots.CardLoadingLightMode_Card_Loading_LightMode_2198ca52]/[previewId:com.example.screenshottesting.CardPreviewScreenshots.CardLoadingLightMode_Card_Loading_LightMode_2198ca52_0]
-display-name: CardLoadingLightMode_Card_Loading_LightMode
+unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots]/[method:PrimaryButtonAllAnnotations]/[previewAnnotation:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_Dark_d19fbf1f]/[previewId:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_Dark_d19fbf1f_0]
+display-name: PrimaryButtonAllAnnotations_Dark_{uiMode=33}
 ]]></system-out>
 </testcase>
-<testcase name="ButtonPrimaryLargeFontScale_Button_Primary_LargeFontScale" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.021">
+<testcase name="PrimaryButtonAllAnnotations_130%_{fontScale=1.3}" classname="com.example.screenshottesting.AllBuiltInAnnotationsScreenshots" time="0.007">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="Button_Primary_LargeFontScale"/>
-<property name="PreviewScreenshot.methodName" value="ButtonPrimaryLargeFontScale"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryLargeFontScale_Button_Primary_LargeFontScale_474209d2_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryLargeFontScale_Button_Primary_LargeFontScale_474209d2_0.png"/>
+<property name="PreviewScreenshot.previewName" value="130%"/>
+<property name="PreviewScreenshot.methodName" value="PrimaryButtonAllAnnotations"/>
+<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_130%_877eaf96_0.png"/>
+<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_130%_877eaf96_0.png"/>
 </properties>
 
 <system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.ButtonPreviewScreenshots]/[method:ButtonPrimaryLargeFontScale]/[previewAnnotation:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonPrimaryLargeFontScale_Button_Primary_LargeFontScale_474209d2]/[previewId:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonPrimaryLargeFontScale_Button_Primary_LargeFontScale_474209d2_0]
-display-name: ButtonPrimaryLargeFontScale_Button_Primary_LargeFontScale
+unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots]/[method:PrimaryButtonAllAnnotations]/[previewAnnotation:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_130%25_877eaf96]/[previewId:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_130%25_877eaf96_0]
+display-name: PrimaryButtonAllAnnotations_130%_{fontScale=1.3}
 ]]></system-out>
 </testcase>
-<testcase name="CardContentNarrowWidth_Card_Content_NarrowWidth" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.013">
+<testcase name="PrimaryButtonAllAnnotations_Unfolded Foldable_{device=spec:id=reference_foldable,shape=Normal,width=673,height=841,unit=dp,dpi=420, showSystemUi=true}" classname="com.example.screenshottesting.AllBuiltInAnnotationsScreenshots" time="0.005">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="Card_Content_NarrowWidth"/>
-<property name="PreviewScreenshot.methodName" value="CardContentNarrowWidth"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/CardPreviewScreenshots/CardContentNarrowWidth_Card_Content_NarrowWidth_e826aeb5_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/CardPreviewScreenshots/CardContentNarrowWidth_Card_Content_NarrowWidth_e826aeb5_0.png"/>
+<property name="PreviewScreenshot.previewName" value="Unfolded Foldable"/>
+<property name="PreviewScreenshot.methodName" value="PrimaryButtonAllAnnotations"/>
+<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_Unfolded Foldable_4e99773a_0.png"/>
+<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_Unfolded Foldable_4e99773a_0.png"/>
 </properties>
 
 <system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.CardPreviewScreenshots]/[method:CardContentNarrowWidth]/[previewAnnotation:com.example.screenshottesting.CardPreviewScreenshots.CardContentNarrowWidth_Card_Content_NarrowWidth_e826aeb5]/[previewId:com.example.screenshottesting.CardPreviewScreenshots.CardContentNarrowWidth_Card_Content_NarrowWidth_e826aeb5_0]
-display-name: CardContentNarrowWidth_Card_Content_NarrowWidth
+unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots]/[method:PrimaryButtonAllAnnotations]/[previewAnnotation:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_Unfolded Foldable_4e99773a]/[previewId:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_Unfolded Foldable_4e99773a_0]
+display-name: PrimaryButtonAllAnnotations_Unfolded Foldable_{device=spec:id=reference_foldable,shape=Normal,width=673,height=841,unit=dp,dpi=420, showSystemUi=true}
 ]]></system-out>
 </testcase>
-<testcase name="CardLoadingDarkMode_Card_Loading_DarkMode" classname="com.example.screenshottesting.CardPreviewScreenshots" time="0.017">
+<testcase name="PrimaryButtonAllAnnotations_Phone_{device=spec:id=reference_phone,shape=Normal,width=411,height=891,unit=dp,dpi=420, showSystemUi=true}" classname="com.example.screenshottesting.AllBuiltInAnnotationsScreenshots" time="0.008">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="Card_Loading_DarkMode"/>
-<property name="PreviewScreenshot.methodName" value="CardLoadingDarkMode"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/CardPreviewScreenshots/CardLoadingDarkMode_Card_Loading_DarkMode_0b2711ed_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/CardPreviewScreenshots/CardLoadingDarkMode_Card_Loading_DarkMode_0b2711ed_0.png"/>
+<property name="PreviewScreenshot.previewName" value="Phone"/>
+<property name="PreviewScreenshot.methodName" value="PrimaryButtonAllAnnotations"/>
+<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_Phone_69f9ee8f_0.png"/>
+<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_Phone_69f9ee8f_0.png"/>
 </properties>
 
 <system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.CardPreviewScreenshots]/[method:CardLoadingDarkMode]/[previewAnnotation:com.example.screenshottesting.CardPreviewScreenshots.CardLoadingDarkMode_Card_Loading_DarkMode_0b2711ed]/[previewId:com.example.screenshottesting.CardPreviewScreenshots.CardLoadingDarkMode_Card_Loading_DarkMode_0b2711ed_0]
-display-name: CardLoadingDarkMode_Card_Loading_DarkMode
+unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots]/[method:PrimaryButtonAllAnnotations]/[previewAnnotation:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_Phone_69f9ee8f]/[previewId:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_Phone_69f9ee8f_0]
+display-name: PrimaryButtonAllAnnotations_Phone_{device=spec:id=reference_phone,shape=Normal,width=411,height=891,unit=dp,dpi=420, showSystemUi=true}
 ]]></system-out>
 </testcase>
-<testcase name="TopBarLongTitleLightMode_TopBar_LongTitle_LightMode" classname="com.example.screenshottesting.TopBarPreviewScreenshots" time="0.012">
+<testcase name="PrimaryButtonAllAnnotations_Light" classname="com.example.screenshottesting.AllBuiltInAnnotationsScreenshots" time="0.02">
 <properties>
 <property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="TopBar_LongTitle_LightMode"/>
-<property name="PreviewScreenshot.methodName" value="TopBarLongTitleLightMode"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/TopBarPreviewScreenshots/TopBarLongTitleLightMode_TopBar_LongTitle_LightMode_1b44aa37_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/TopBarPreviewScreenshots/TopBarLongTitleLightMode_TopBar_LongTitle_LightMode_1b44aa37_0.png"/>
+<property name="PreviewScreenshot.previewName" value="Light"/>
+<property name="PreviewScreenshot.methodName" value="PrimaryButtonAllAnnotations"/>
+<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_Light_b29dc7a7_0.png"/>
+<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/AllBuiltInAnnotationsScreenshots/PrimaryButtonAllAnnotations_Light_b29dc7a7_0.png"/>
 </properties>
 
 <system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.TopBarPreviewScreenshots]/[method:TopBarLongTitleLightMode]/[previewAnnotation:com.example.screenshottesting.TopBarPreviewScreenshots.TopBarLongTitleLightMode_TopBar_LongTitle_LightMode_1b44aa37]/[previewId:com.example.screenshottesting.TopBarPreviewScreenshots.TopBarLongTitleLightMode_TopBar_LongTitle_LightMode_1b44aa37_0]
-display-name: TopBarLongTitleLightMode_TopBar_LongTitle_LightMode
-]]></system-out>
-</testcase>
-<testcase name="TopBarNoBackArrowLightMode_TopBar_NoBackArrow_LightMode" classname="com.example.screenshottesting.TopBarPreviewScreenshots" time="0.013">
-<properties>
-<property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="TopBar_NoBackArrow_LightMode"/>
-<property name="PreviewScreenshot.methodName" value="TopBarNoBackArrowLightMode"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/TopBarPreviewScreenshots/TopBarNoBackArrowLightMode_TopBar_NoBackArrow_LightMode_cf742b5d_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/TopBarPreviewScreenshots/TopBarNoBackArrowLightMode_TopBar_NoBackArrow_LightMode_cf742b5d_0.png"/>
-</properties>
-
-<system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.TopBarPreviewScreenshots]/[method:TopBarNoBackArrowLightMode]/[previewAnnotation:com.example.screenshottesting.TopBarPreviewScreenshots.TopBarNoBackArrowLightMode_TopBar_NoBackArrow_LightMode_cf742b5d]/[previewId:com.example.screenshottesting.TopBarPreviewScreenshots.TopBarNoBackArrowLightMode_TopBar_NoBackArrow_LightMode_cf742b5d_0]
-display-name: TopBarNoBackArrowLightMode_TopBar_NoBackArrow_LightMode
-]]></system-out>
-</testcase>
-<testcase name="ButtonSecondaryDarkMode_Button_Secondary_DarkMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.004">
-<properties>
-<property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="Button_Secondary_DarkMode"/>
-<property name="PreviewScreenshot.methodName" value="ButtonSecondaryDarkMode"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonSecondaryDarkMode_Button_Secondary_DarkMode_2385d135_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonSecondaryDarkMode_Button_Secondary_DarkMode_2385d135_0.png"/>
-</properties>
-
-<system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.ButtonPreviewScreenshots]/[method:ButtonSecondaryDarkMode]/[previewAnnotation:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonSecondaryDarkMode_Button_Secondary_DarkMode_2385d135]/[previewId:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonSecondaryDarkMode_Button_Secondary_DarkMode_2385d135_0]
-display-name: ButtonSecondaryDarkMode_Button_Secondary_DarkMode
-]]></system-out>
-</testcase>
-<testcase name="ButtonPrimaryLightMode_Button_Primary_LightMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.004">
-<properties>
-<property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="Button_Primary_LightMode"/>
-<property name="PreviewScreenshot.methodName" value="ButtonPrimaryLightMode"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryLightMode_Button_Primary_LightMode_84e678e8_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryLightMode_Button_Primary_LightMode_84e678e8_0.png"/>
-</properties>
-
-<system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.ButtonPreviewScreenshots]/[method:ButtonPrimaryLightMode]/[previewAnnotation:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonPrimaryLightMode_Button_Primary_LightMode_84e678e8]/[previewId:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonPrimaryLightMode_Button_Primary_LightMode_84e678e8_0]
-display-name: ButtonPrimaryLightMode_Button_Primary_LightMode
-]]></system-out>
-</testcase>
-<testcase name="ButtonSecondaryLargeFontScale_Button_Secondary_LargeFontScale" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.005">
-<properties>
-<property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="Button_Secondary_LargeFontScale"/>
-<property name="PreviewScreenshot.methodName" value="ButtonSecondaryLargeFontScale"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonSecondaryLargeFontScale_Button_Secondary_LargeFontScale_303416fc_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonSecondaryLargeFontScale_Button_Secondary_LargeFontScale_303416fc_0.png"/>
-</properties>
-
-<system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.ButtonPreviewScreenshots]/[method:ButtonSecondaryLargeFontScale]/[previewAnnotation:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonSecondaryLargeFontScale_Button_Secondary_LargeFontScale_303416fc]/[previewId:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonSecondaryLargeFontScale_Button_Secondary_LargeFontScale_303416fc_0]
-display-name: ButtonSecondaryLargeFontScale_Button_Secondary_LargeFontScale
-]]></system-out>
-</testcase>
-<testcase name="ButtonPrimaryRtlLocale_Button_Primary_RtlLocale" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.004">
-<properties>
-<property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="Button_Primary_RtlLocale"/>
-<property name="PreviewScreenshot.methodName" value="ButtonPrimaryRtlLocale"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryRtlLocale_Button_Primary_RtlLocale_b092ded2_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryRtlLocale_Button_Primary_RtlLocale_b092ded2_0.png"/>
-</properties>
-
-<system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.ButtonPreviewScreenshots]/[method:ButtonPrimaryRtlLocale]/[previewAnnotation:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonPrimaryRtlLocale_Button_Primary_RtlLocale_b092ded2]/[previewId:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonPrimaryRtlLocale_Button_Primary_RtlLocale_b092ded2_0]
-display-name: ButtonPrimaryRtlLocale_Button_Primary_RtlLocale
-]]></system-out>
-</testcase>
-<testcase name="ButtonPrimarySmallFontScale_Button_Primary_SmallFontScale" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.004">
-<properties>
-<property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="Button_Primary_SmallFontScale"/>
-<property name="PreviewScreenshot.methodName" value="ButtonPrimarySmallFontScale"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimarySmallFontScale_Button_Primary_SmallFontScale_d7bcdff9_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimarySmallFontScale_Button_Primary_SmallFontScale_d7bcdff9_0.png"/>
-</properties>
-
-<system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.ButtonPreviewScreenshots]/[method:ButtonPrimarySmallFontScale]/[previewAnnotation:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonPrimarySmallFontScale_Button_Primary_SmallFontScale_d7bcdff9]/[previewId:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonPrimarySmallFontScale_Button_Primary_SmallFontScale_d7bcdff9_0]
-display-name: ButtonPrimarySmallFontScale_Button_Primary_SmallFontScale
-]]></system-out>
-</testcase>
-<testcase name="TopBarHugeFontScale_TopBar_HugeFontScale" classname="com.example.screenshottesting.TopBarPreviewScreenshots" time="0.013">
-<properties>
-<property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="TopBar_HugeFontScale"/>
-<property name="PreviewScreenshot.methodName" value="TopBarHugeFontScale"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/TopBarPreviewScreenshots/TopBarHugeFontScale_TopBar_HugeFontScale_036ef737_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/TopBarPreviewScreenshots/TopBarHugeFontScale_TopBar_HugeFontScale_036ef737_0.png"/>
-</properties>
-
-<system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.TopBarPreviewScreenshots]/[method:TopBarHugeFontScale]/[previewAnnotation:com.example.screenshottesting.TopBarPreviewScreenshots.TopBarHugeFontScale_TopBar_HugeFontScale_036ef737]/[previewId:com.example.screenshottesting.TopBarPreviewScreenshots.TopBarHugeFontScale_TopBar_HugeFontScale_036ef737_0]
-display-name: TopBarHugeFontScale_TopBar_HugeFontScale
-]]></system-out>
-</testcase>
-<testcase name="TopBarRtlLocale_TopBar_RtlLocale" classname="com.example.screenshottesting.TopBarPreviewScreenshots" time="0.011">
-<properties>
-<property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="TopBar_RtlLocale"/>
-<property name="PreviewScreenshot.methodName" value="TopBarRtlLocale"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/TopBarPreviewScreenshots/TopBarRtlLocale_TopBar_RtlLocale_859cad38_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/TopBarPreviewScreenshots/TopBarRtlLocale_TopBar_RtlLocale_859cad38_0.png"/>
-</properties>
-
-<system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.TopBarPreviewScreenshots]/[method:TopBarRtlLocale]/[previewAnnotation:com.example.screenshottesting.TopBarPreviewScreenshots.TopBarRtlLocale_TopBar_RtlLocale_859cad38]/[previewId:com.example.screenshottesting.TopBarPreviewScreenshots.TopBarRtlLocale_TopBar_RtlLocale_859cad38_0]
-display-name: TopBarRtlLocale_TopBar_RtlLocale
-]]></system-out>
-</testcase>
-<testcase name="ButtonPrimaryWithIconLightMode_Button_Primary_WithIcon_LightMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.005">
-<properties>
-<property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="Button_Primary_WithIcon_LightMode"/>
-<property name="PreviewScreenshot.methodName" value="ButtonPrimaryWithIconLightMode"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryWithIconLightMode_Button_Primary_WithIcon_LightMode_a6d8dbe1_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryWithIconLightMode_Button_Primary_WithIcon_LightMode_a6d8dbe1_0.png"/>
-</properties>
-
-<system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.ButtonPreviewScreenshots]/[method:ButtonPrimaryWithIconLightMode]/[previewAnnotation:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonPrimaryWithIconLightMode_Button_Primary_WithIcon_LightMode_a6d8dbe1]/[previewId:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonPrimaryWithIconLightMode_Button_Primary_WithIcon_LightMode_a6d8dbe1_0]
-display-name: ButtonPrimaryWithIconLightMode_Button_Primary_WithIcon_LightMode
-]]></system-out>
-</testcase>
-<testcase name="TopBarLargeFontScale_TopBar_LargeFontScale" classname="com.example.screenshottesting.TopBarPreviewScreenshots" time="0.011">
-<properties>
-<property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="TopBar_LargeFontScale"/>
-<property name="PreviewScreenshot.methodName" value="TopBarLargeFontScale"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/TopBarPreviewScreenshots/TopBarLargeFontScale_TopBar_LargeFontScale_d6c971a8_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/TopBarPreviewScreenshots/TopBarLargeFontScale_TopBar_LargeFontScale_d6c971a8_0.png"/>
-</properties>
-
-<system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.TopBarPreviewScreenshots]/[method:TopBarLargeFontScale]/[previewAnnotation:com.example.screenshottesting.TopBarPreviewScreenshots.TopBarLargeFontScale_TopBar_LargeFontScale_d6c971a8]/[previewId:com.example.screenshottesting.TopBarPreviewScreenshots.TopBarLargeFontScale_TopBar_LargeFontScale_d6c971a8_0]
-display-name: TopBarLargeFontScale_TopBar_LargeFontScale
-]]></system-out>
-</testcase>
-<testcase name="ButtonPrimaryDarkMode_Button_Primary_DarkMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.006">
-<properties>
-<property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="Button_Primary_DarkMode"/>
-<property name="PreviewScreenshot.methodName" value="ButtonPrimaryDarkMode"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryDarkMode_Button_Primary_DarkMode_d82d785b_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryDarkMode_Button_Primary_DarkMode_d82d785b_0.png"/>
-</properties>
-
-<system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.ButtonPreviewScreenshots]/[method:ButtonPrimaryDarkMode]/[previewAnnotation:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonPrimaryDarkMode_Button_Primary_DarkMode_d82d785b]/[previewId:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonPrimaryDarkMode_Button_Primary_DarkMode_d82d785b_0]
-display-name: ButtonPrimaryDarkMode_Button_Primary_DarkMode
-]]></system-out>
-</testcase>
-<testcase name="ButtonPrimaryWithIconDarkMode_Button_Primary_WithIcon_DarkMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.005">
-<properties>
-<property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="Button_Primary_WithIcon_DarkMode"/>
-<property name="PreviewScreenshot.methodName" value="ButtonPrimaryWithIconDarkMode"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryWithIconDarkMode_Button_Primary_WithIcon_DarkMode_852f817f_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryWithIconDarkMode_Button_Primary_WithIcon_DarkMode_852f817f_0.png"/>
-</properties>
-
-<system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.ButtonPreviewScreenshots]/[method:ButtonPrimaryWithIconDarkMode]/[previewAnnotation:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonPrimaryWithIconDarkMode_Button_Primary_WithIcon_DarkMode_852f817f]/[previewId:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonPrimaryWithIconDarkMode_Button_Primary_WithIcon_DarkMode_852f817f_0]
-display-name: ButtonPrimaryWithIconDarkMode_Button_Primary_WithIcon_DarkMode
-]]></system-out>
-</testcase>
-<testcase name="ButtonPrimaryDisabledLightMode_Button_Primary_Disabled_LightMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.006">
-<properties>
-<property name="PreviewScreenshot.diffPercent" value="0.0"/>
-<property name="PreviewScreenshot.previewName" value="Button_Primary_Disabled_LightMode"/>
-<property name="PreviewScreenshot.methodName" value="ButtonPrimaryDisabledLightMode"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/src/screenshotTestDebug/reference/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryDisabledLightMode_Button_Primary_Disabled_LightMode_dd4ee4ae_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/praveenkumar/StudioProjects/ComposeScreenshotTesting/app/build/outputs/screenshotTest-results/preview/debug/rendered/com/example/screenshottesting/ButtonPreviewScreenshots/ButtonPrimaryDisabledLightMode_Button_Primary_Disabled_LightMode_dd4ee4ae_0.png"/>
-</properties>
-
-<system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.ButtonPreviewScreenshots]/[method:ButtonPrimaryDisabledLightMode]/[previewAnnotation:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonPrimaryDisabledLightMode_Button_Primary_Disabled_LightMode_dd4ee4ae]/[previewId:com.example.screenshottesting.ButtonPreviewScreenshots.ButtonPrimaryDisabledLightMode_Button_Primary_Disabled_LightMode_dd4ee4ae_0]
-display-name: ButtonPrimaryDisabledLightMode_Button_Primary_Disabled_LightMode
+unique-id: [engine:preview-screenshot-test-engine]/[class:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots]/[method:PrimaryButtonAllAnnotations]/[previewAnnotation:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_Light_b29dc7a7]/[previewId:com.example.screenshottesting.AllBuiltInAnnotationsScreenshots.PrimaryButtonAllAnnotations_Light_b29dc7a7_0]
+display-name: PrimaryButtonAllAnnotations_Light
 ]]></system-out>
 </testcase>
 <system-out><![CDATA[

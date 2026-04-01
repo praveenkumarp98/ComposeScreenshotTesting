@@ -70,4 +70,6 @@ dependencies {
     // Screenshot test source set dependencies
     screenshotTestImplementation(libs.screenshot.validation.api)
     screenshotTestImplementation(libs.compose.ui.tooling)
+    screenshotTestImplementation(platform(libs.compose.bom))
+    screenshotTestImplementation(libs.compose.ui.tooling.preview)
 }

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.screenshottesting.ButtonPreviewScreenshots" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-03-31T16:06:37" hostname="Praveens-MacBook-Pro-2.local" time="0.442">
+<testsuite name="com.example.screenshottesting.ButtonPreviewScreenshots" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-04-01T10:38:10" hostname="Praveens-MacBook-Pro-2.local" time="0.392">
   <properties/>
-  <testcase name="ButtonPrimaryLargeFontScale_Button_Primary_LargeFontScale" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.024"/>
+  <testcase name="ButtonPrimaryLargeFontScale_Button_Primary_LargeFontScale" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.018"/>
   <testcase name="ButtonPrimaryDisabledLightMode_Button_Primary_Disabled_LightMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.007"/>
-  <testcase name="ButtonPrimaryHugeFontScale_Button_Primary_HugeFontScale" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.008"/>
-  <testcase name="ButtonSecondaryLightMode_Button_Secondary_LightMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.008"/>
+  <testcase name="ButtonPrimaryHugeFontScale_Button_Primary_HugeFontScale" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.01"/>
+  <testcase name="ButtonSecondaryLightMode_Button_Secondary_LightMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.007"/>
   <testcase name="ButtonPrimaryDisabledDarkMode_Button_Primary_Disabled_DarkMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.007"/>
-  <testcase name="ButtonPrimaryDarkMode_Button_Primary_DarkMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.005"/>
-  <testcase name="ButtonPrimaryLongLabelLightMode_Button_Primary_LongLabel_LightMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.009"/>
-  <testcase name="ButtonPrimaryWithIconLightMode_Button_Primary_WithIcon_LightMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.006"/>
-  <testcase name="ButtonSecondaryDarkMode_Button_Secondary_DarkMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.005"/>
-  <testcase name="ButtonPrimarySmallFontScale_Button_Primary_SmallFontScale" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.005"/>
-  <testcase name="ButtonPrimaryWithIconDarkMode_Button_Primary_WithIcon_DarkMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.007"/>
+  <testcase name="ButtonPrimaryDarkMode_Button_Primary_DarkMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.006"/>
+  <testcase name="ButtonPrimaryLongLabelLightMode_Button_Primary_LongLabel_LightMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.013"/>
+  <testcase name="ButtonPrimaryWithIconLightMode_Button_Primary_WithIcon_LightMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.008"/>
+  <testcase name="ButtonSecondaryDarkMode_Button_Secondary_DarkMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.006"/>
+  <testcase name="ButtonPrimarySmallFontScale_Button_Primary_SmallFontScale" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.007"/>
+  <testcase name="ButtonPrimaryWithIconDarkMode_Button_Primary_WithIcon_DarkMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.006"/>
   <testcase name="ButtonPrimaryRtlLocale_Button_Primary_RtlLocale" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.005"/>
-  <testcase name="ButtonSecondaryLargeFontScale_Button_Secondary_LargeFontScale" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.005"/>
-  <testcase name="ButtonPrimaryLightMode_Button_Primary_LightMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.004"/>
+  <testcase name="ButtonSecondaryLargeFontScale_Button_Secondary_LargeFontScale" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.006"/>
+  <testcase name="ButtonPrimaryLightMode_Button_Primary_LightMode" classname="com.example.screenshottesting.ButtonPreviewScreenshots" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
