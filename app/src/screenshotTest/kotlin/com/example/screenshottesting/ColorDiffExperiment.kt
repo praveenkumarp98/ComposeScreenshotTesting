@@ -75,7 +75,7 @@ class ColorDiffExperimentScreenshots {
             Button(
                 onClick = {},
                 modifier = Modifier.padding(16.dp),
-                colors = ButtonDefaults.buttonColors(containerColor = Color.Red)
+                colors = ButtonDefaults.buttonColors(containerColor = Color.Blue)
             ) { Text("Confirm") }
         }
     }

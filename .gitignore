@@ -32,5 +32,9 @@ local.properties
 app/build/reports/
 app/build/test-results/
 
+# Root-level build reports and IDE test result HTML files
+build/
+Test Results - *.html
+
 # Screenshot test reference images are committed intentionally — do NOT ignore:
 # app/src/screenshotTestDebug/reference/

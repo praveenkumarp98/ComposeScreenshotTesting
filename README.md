@@ -602,6 +602,30 @@ Open it in any browser. For each failed test the report shows three tabs:
 
 ## Key Design Decisions
 
+### Never Rename a `@PreviewTest` Function
+
+Renaming a function changes the PNG filename the engine looks for. The old reference PNG stays in `reference/` untouched — the engine never deletes it automatically.
+
+**What happens step by step (verified by live test):**
+
+| Step | Action | Result |
+|---|---|---|
+| 1 | Baseline exists: `ButtonBeforeRename_..._0.png` | ✅ Committed to git |
+| 2 | Rename function to `ButtonAfterRename` | — |
+| 3 | `validateDebugScreenshotTest` | ❌ **FAILS** — `java.io.FileNotFoundException` — the new name `ButtonAfterRename_..._0.png` has no reference PNG yet |
+| 4 | `updateDebugScreenshotTest` | Writes `ButtonAfterRename_..._0.png`. Old `ButtonBeforeRename_..._0.png` **remains in the folder** |
+| 5 | `validateDebugScreenshotTest` again | ✅ PASSES — but `ButtonBeforeRename_..._0.png` is now a **dead orphan** in git forever |
+
+The orphan PNG is never compared against anything — it silently accumulates in git, bloating the repo. If you revert the rename later, the stale PNG becomes the baseline again with no warning.
+
+**Safe rename procedure:**
+1. Delete the old reference PNG manually
+2. Rename the function
+3. Run `updateDebugScreenshotTest` to generate the new PNG
+4. Commit both the code change and the new PNG together
+
+---
+
 ### No Dynamic Color
 `AppTheme` uses static `lightColorScheme` / `darkColorScheme` instead of `dynamicColorScheme`. Dynamic color reads the wallpaper palette at runtime — unavailable in Layoutlib — which would crash screenshot tests.
 
